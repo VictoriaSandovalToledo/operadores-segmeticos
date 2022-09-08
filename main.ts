@@ -8,6 +8,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(numero2)
     basic.showString("=")
     basic.showNumber(numero1 + numero2)
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     numero1 = randint(0, 10)
@@ -16,4 +17,5 @@ input.onButtonPressed(Button.B, function () {
     basic.showString("=")
     basic.showNumber(numero1 * (1.8 + 32))
     basic.showString("°F")
+    basic.clearScreen()
 })

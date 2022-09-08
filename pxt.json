@@ -1,5 +1,5 @@
 {
-    "name": "Operadores segmeticos",
+    "name": "Operadores aritmeticos",
     "description": "",
     "dependencies": {
         "core": "*",
